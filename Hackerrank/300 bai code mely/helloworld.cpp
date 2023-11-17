@@ -9,6 +9,8 @@ int main ()  {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
+    freopen("","r", stdin);
+    freopen("","w",stdout);
     cout << "Hello, world!" << endl;
 
     return 0;
