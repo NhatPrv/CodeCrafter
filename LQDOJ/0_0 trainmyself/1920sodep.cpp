@@ -9,13 +9,18 @@ int main ()  {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    string n;   cin >> n;
-    int sum - 0;
-    for (int i = 0; i < n.size(); i++) {
-        sum += (n[i] - '0');
+    long long n;    cin >> n;
+    long long ans = 0; 
+    while (1) {
+        if (n == 0 && ans < 10) break;
+        if (ans > 9 && n==0) {
+            n = ans;
+            ans = 0;
+        }
+        ans += n%10;
+        n/=10;
     }
-    cout << sum << endl;
-    cout << n.size(); 
+    cout << ans;
 
     return 0;
 }

@@ -9,13 +9,17 @@ int main ()  {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    string n;   cin >> n;
-    int sum - 0;
-    for (int i = 0; i < n.size(); i++) {
-        sum += (n[i] - '0');
+    int n, k;   cin >> n >> k;
+    vector<int> a(n);
+    for (int i = 0; i < n; i++)  {
+        cin >> a[i];
     }
-    cout << sum << endl;
-    cout << n.size(); 
+    for (int i = k; i < n; i++) {
+        cout << a[i] << " ";
+    }
+    for (int i = 0; i < k; i++) {
+        cout << 0 << " ";
+    }
 
     return 0;
-}
+}   
