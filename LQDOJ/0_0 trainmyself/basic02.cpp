@@ -9,10 +9,9 @@ int main ()  {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    int n;  cin >> n;
-    for (int i=1; i<=n; i++) {
-        if (n % i == 0) cout << i << " ";
-    }
+    long long x, y, z;
+    cin >> x >> y >> z;
+    cout << (x-y)*z;
 
     return 0;
 }

@@ -10,9 +10,9 @@ int main ()  {
     cout.tie(nullptr);
 
     int n;  cin >> n;
-    for (int i=1; i<=n; i++) {
-        if (n % i == 0) cout << i << " ";
-    }
+    cout << n/100 << endl;
+    cout << (n%100)/10 << endl;
+    cout << n%10;
 
     return 0;
 }

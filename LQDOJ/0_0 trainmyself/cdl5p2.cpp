@@ -9,10 +9,11 @@ int main ()  {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    int n;  cin >> n;
-    for (int i=1; i<=n; i++) {
-        if (n % i == 0) cout << i << " ";
+    string s;   getline (cin, s);
+    int ans = 0;
+    for (int i = 0; i < s.length(); i++) {
+        if((s[i] >= 'a' && s[i] <= 'z') || (s[i] >= 'A' && s[i] <= 'Z') || s[i] == ' ') ans ++; 
     }
-
+    cout << ans;
     return 0;
 }

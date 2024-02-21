@@ -10,9 +10,12 @@ int main ()  {
     cout.tie(nullptr);
 
     int n;  cin >> n;
-    for (int i=1; i<=n; i++) {
-        if (n % i == 0) cout << i << " ";
+    long long ans = 0;
+    while (n--) {
+        long long x;    cin >> x;
+        ans+=((x%2==0)?x:0);
     }
+    cout << ans;
 
     return 0;
 }

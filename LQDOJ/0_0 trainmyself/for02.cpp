@@ -9,10 +9,12 @@ int main ()  {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    int n;  cin >> n;
-    for (int i=1; i<=n; i++) {
-        if (n % i == 0) cout << i << " ";
+    long long n;    cin >> n;
+    n = (n%2==0)?(n-1):n;
+    long long ans = 0;
+    for (long long i = 1; i <= n; i+=2) {
+        ans += i;
     }
-
+    cout << ans;
     return 0;
 }
