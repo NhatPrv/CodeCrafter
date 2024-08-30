@@ -9,10 +9,14 @@ int main ()  {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    int n;  cin >> n;
-    for (int i=1; i<=n; i++) {
-        if (n % i == 0) cout << i << " ";
+    long long n, x;
+    cin >> n >> x;
+    map<int, int> mp;
+    while (n--) {
+        long long tmp;  cin >> tmp;
+        mp[tmp]++;
     }
+    cout << mp[x];
 
     return 0;
 }
