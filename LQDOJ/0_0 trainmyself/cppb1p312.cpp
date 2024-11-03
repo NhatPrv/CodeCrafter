@@ -10,14 +10,9 @@ int main ()  {
     cout.tie(nullptr);
 
     int n;  cin >> n;
-    vector<long long> v(n);
+    string s;   cin >> s;
     for (int i = 0; i < n; i++) {
-        cin >> v[i];
-    }
-    sort(v.begin(), v.end(), greater<long long>());
-
-    for (long long i : v) {
-        cout << i << " ";
+        cout << s;
     }
 
     return 0;

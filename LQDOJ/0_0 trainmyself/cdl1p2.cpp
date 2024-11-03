@@ -9,16 +9,8 @@ int main ()  {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    int n;  cin >> n;
-    vector<long long> v(n);
-    for (int i = 0; i < n; i++) {
-        cin >> v[i];
-    }
-    sort(v.begin(), v.end(), greater<long long>());
-
-    for (long long i : v) {
-        cout << i << " ";
-    }
+    int a, b;   cin >> a >> b;
+    cout << a * b;
 
     return 0;
 }
