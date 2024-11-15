@@ -59,6 +59,7 @@
   "files.associations": {
     "cmath": "cpp",
     "complex": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "iomanip": "cpp"
   }
 }
