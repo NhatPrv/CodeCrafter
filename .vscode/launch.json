@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/DATA/CodeCrafters/LQDOJ/contest",
-      "program": "c:/DATA/CodeCrafters/LQDOJ/contest/build/Debug/outDebug",
+      "cwd": "c:/DATA/CodeCrafters/LQDOJ/0_0 trainmyself",
+      "program": "c:/DATA/CodeCrafters/LQDOJ/0_0 trainmyself/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
