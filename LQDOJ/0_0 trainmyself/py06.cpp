@@ -9,9 +9,9 @@ int main ()  {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    float a, b;     cin >> a >> b;
-    cout << "DT: " << fixed << setprecision(2) << a*b << endl;
-    cout << "CV: " << fixed << setprecision(2) << 2*(a+b);
+    float a = 7.8, b = 6.4;
+    cout << "DT = " << a*b << endl;
+    cout << "CV = " << 2*(a+b);
     
     return 0;
 }
