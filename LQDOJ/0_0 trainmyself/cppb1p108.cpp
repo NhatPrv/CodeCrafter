@@ -11,10 +11,16 @@ int main ()  {
 
     long long a, b; cin >> a >> b;
     long long ans = a;
-    while (b > 0) {
-        if (b % 2 == 0) ans*=ans;
-        else ans*=a;
-        b/=2;
+    while (b > 1) {
+        if (b % 2 == 0) {
+            ans*=a;
+            a*=a;
+            b/=2;
+        } else {
+            ans*=a;
+            b--;
+        }
+        
     }
     cout << ans << endl;
 
