@@ -8,12 +8,13 @@ int main ()  {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
-    string a, b;
-    getline(cin, a); getline(cin, b);
-    if (a.size() > b.size()) {
-        
-    }
 
+    long long a, b;
+    cin >> a >> b;
+    cout << a+b << endl;
+    cout << a-b << endl;
+    cout << a*b << endl;
+    cout << a/b;
 
     return 0;
 }
