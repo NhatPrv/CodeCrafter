@@ -10,13 +10,13 @@ int main ()  {
     cout.tie(nullptr);
 
     int n;  cin >> n;
-    vector<int> A(n+1);
+    vector<int> A(1000006);
     for (int i = 0; i < n; i++) {
         int x;  cin >> x;
-        A[x+1]++;
+        A[x]++;
     }
-    for (int i = 1; i < n; i++) {
-        cout << i << " " << A[i] << endl;
+    for (int i = 1; i <= 1000006; i++) {
+        if (A[i] != 0) cout << i << " " << A[i] << endl;
     }
 
     return 0;
