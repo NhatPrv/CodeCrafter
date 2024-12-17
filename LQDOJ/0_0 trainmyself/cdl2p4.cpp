@@ -9,9 +9,5 @@ int main ()  {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    cout << "2468 + 1234 = " << 2468 + 1234 << endl;
-    cout << "2468 - 1234 = " << 2468 - 1234 << endl;
-    cout << "2468 * 1234 = " << 2468 * 1234 << endl;
-    cout << "2468 // 1234 = " << 2468 / 1234;
     return 0;
 }
