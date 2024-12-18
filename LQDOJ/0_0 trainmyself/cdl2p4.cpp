@@ -9,5 +9,9 @@ int main ()  {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
+    long long a, b; cin >> a; cin >> b; 
+    if (a + b < 0) cout << "Tong am";
+    else cout << "Tong duong";
+
     return 0;
 }
